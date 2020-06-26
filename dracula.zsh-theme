@@ -95,7 +95,7 @@ PROMPT+='%F{magenta}%B$(dracula_context)'
 # }}}
 
 # Directory segment {{{
-PROMPT+='%F{blue}%B%c '
+PROMPT+='%{$fg[blue]%}%45<...<%~%<<%{$reset_color%} '
 # }}}
 
 # Async git segment {{{
